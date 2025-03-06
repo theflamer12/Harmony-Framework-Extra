@@ -3,9 +3,9 @@
 Fork of a Harmony framework (made by Darknn__).
 Adds stuff that's not gonna be in harmony or isn't added yet.
 
-#Feel free to use it but don't forget to credit us! 
+# Feel free to use it but don't forget to credit us! 
 
-#Additions
+# Additions
 
 Added:
 - Rotating platforms
