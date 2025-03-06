@@ -10,6 +10,7 @@ Adds stuff that's not gonna be in harmony or isn't added yet.
 Added:
 - Rotating platforms
 - Flail
+
 To do:
 - Swing ropes
 - Button and template activation object
