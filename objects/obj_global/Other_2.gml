@@ -10,7 +10,7 @@
 	global.character = CHAR_SONIC;			//Global value for the character
 	
 	//Screen values
-	global.window_width  = 426;				//Window's horizontal size
+	global.window_width  = 320;				//Window's horizontal size
 	global.window_height = 240;				//Window's vertical size
 	global.window_size   = 2;				//Window size multiplier
 	
