@@ -1,0 +1,1 @@
+draw_sprite(spr_aaz_door, 0, x, y);
