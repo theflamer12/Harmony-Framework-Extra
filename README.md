@@ -20,5 +20,6 @@ To do:
 - Rail surfaces
 - Superform
 - Boss system
-- Special stage *I'm not sure*
+- Special stage *-I'm not sure-*
+- Title screen template *-I'm not sure-*
 - *idk... something*
