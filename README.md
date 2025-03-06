@@ -20,6 +20,7 @@ To do:
 - Rail surfaces
 - Superform
 - Boss system
+- Collectible example
 - Special stage *-I'm not sure-*
 - Title screen template *-I'm not sure-*
 - *idk... something*
