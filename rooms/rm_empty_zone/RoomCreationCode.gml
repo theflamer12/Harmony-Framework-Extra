@@ -1,8 +1,8 @@
 	//NOTE: Dublicate this room to make levels!
-		with(obj_level)
+	with(obj_level)
 	{
 		//Set stage music and loop points
-		stage_music = BGM_ARBOREAL_2;
+		stage_music = BGM_ARBOREAL_1;
 		
 		//Set level name
 		stage_name = "EMPTY ROOM";
@@ -17,5 +17,5 @@
 		animal = [A_FLICKY, A_CUCKY, A_RICKY];
 		
 		//Next level
-		next_level = rm_stage_select;
+		next_level = room;
 	}

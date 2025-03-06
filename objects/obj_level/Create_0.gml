@@ -9,6 +9,8 @@
 	
 	//Set stage music and loop points
 	stage_music = noone;
+	loop_start = 0.00;
+	loop_end = 0.00;
 		
 	//Set level name
 	stage_name = "EMPTY LEVEL";
