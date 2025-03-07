@@ -12,12 +12,12 @@ Added:
 - Flail
 - Swing ropes
 - Button and template activation object
+- Smooth palette swap shader
 
 WIP:
 - Arboreal Agate act 2
 
 To do:
-- Smooth palette swap shader
 - Spiral path
 - Ziplines
 - Rail surfaces
