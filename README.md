@@ -10,11 +10,14 @@ Adds stuff that's not gonna be in harmony or isn't added yet.
 Added:
 - Rotating platforms
 - Flail
-
-To do:
 - Swing ropes
 - Button and template activation object
 - Smooth palette swap shader
+
+WIP:
+- Arboreal Agate act 2
+
+To do:
 - Spiral path
 - Ziplines
 - Rail surfaces
@@ -22,5 +25,5 @@ To do:
 - Boss system
 - Collectible example
 - Special stage *-I'm not sure-*
-- Title screen template *-I'm not sure-*
+- Title screen template
 - *idk... something*

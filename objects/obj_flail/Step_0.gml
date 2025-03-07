@@ -20,8 +20,8 @@
 	
 	var hitbox_scale = 1 - 0.25 * dsin(global.object_timer  * rot_speed + 90);
 
-	if(attacking && enemy_check_region(-24*hitbox_scale, -24*hitbox_scale, 24*hitbox_scale, 24*hitbox_scale, hitbox_x, y-26) && obj_player.state != ST_KNOCKOUT && !obj_player.debug) 
+	if(attacking && check_region(-24*hitbox_scale, -24*hitbox_scale, 24*hitbox_scale, 24*hitbox_scale, hitbox_x, y-26) && obj_player.state != ST_KNOCKOUT && !obj_player.debug) 
 	{
-		player_hurt();
+		player_hurt(hitbox_x);
 		play_sound(sfx_spike);
 	}
