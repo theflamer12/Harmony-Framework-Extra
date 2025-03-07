@@ -25,5 +25,5 @@ To do:
 - Boss system
 - Collectible example
 - Special stage *-I'm not sure-*
-- Title screen template *-I'm not sure-*
+- Title screen template
 - *idk... something*
