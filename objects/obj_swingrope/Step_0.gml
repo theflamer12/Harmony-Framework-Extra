@@ -1,4 +1,14 @@
 /// @description Script
+angle = 75/joins_amount * range_multiplier * dsin(global.object_timer*swing_speed);
+
+for (var i = 0; i <= joins_amount; i++) 
+{
+	//idk[i]  = 12 * i;
+	_angle[i] = angle*i*0.2;
+	_x[i] = lengthdir_x(12*i, _angle[i]-90);
+	_y[i] = lengthdir_y(12*i, _angle[i]-90);
+}
+
 var player = instance_nearest(x, y, obj_player);
 
 if(check_region(-10, -2, 10, 2, x+_x[joins_amount], y+_y[joins_amount]) && player.state != ST_KNOCKOUT && !player.debug && player.y_speed >= 0 || triggered)

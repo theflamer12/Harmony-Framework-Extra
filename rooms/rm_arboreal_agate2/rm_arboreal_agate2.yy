@@ -138,6 +138,8 @@
     {"name":"inst_29164539","path":"rooms/rm_arboreal_agate2/rm_arboreal_agate2.yy",},
     {"name":"inst_2D540D0","path":"rooms/rm_arboreal_agate2/rm_arboreal_agate2.yy",},
     {"name":"inst_325C20CB","path":"rooms/rm_arboreal_agate2/rm_arboreal_agate2.yy",},
+    {"name":"inst_4562CAA7","path":"rooms/rm_arboreal_agate2/rm_arboreal_agate2.yy",},
+    {"name":"inst_542DD40","path":"rooms/rm_arboreal_agate2/rm_arboreal_agate2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -1998,6 +2000,12 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_swingrope","path":"objects/obj_swingrope/obj_swingrope.yy",},"propertyId":{"name":"range_multiplier","path":"objects/obj_swingrope/obj_swingrope.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_swingrope","path":"objects/obj_swingrope/obj_swingrope.yy",},"propertyId":{"name":"swing_speed","path":"objects/obj_swingrope/obj_swingrope.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":7.857143,"x":2528.0,"y":2192.0,},
+        {"$GMRInstance":"v1","%Name":"inst_4562CAA7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4562CAA7","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"propertyId":{"name":"button_id","path":"objects/obj_button/obj_button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2424.0,"y":2344.0,},
+        {"$GMRInstance":"v1","%Name":"inst_542DD40","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_542DD40","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"propertyId":{"name":"button_id","path":"objects/obj_door/obj_door.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2552.0,"y":2352.0,},
       ],"layers":[],"name":"Objects","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"PlaneBack","depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"PlaneBack","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":250,"SerialiseWidth":1000,"TileCompressedData":[
           -169,0,-831,-2147483648,-169,0,-831,-2147483648,-169,0,-831,-2147483648,-169,0,-831,-2147483648,-169,
