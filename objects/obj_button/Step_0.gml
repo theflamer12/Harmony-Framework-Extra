@@ -1,7 +1,4 @@
-//Render it behind the player
-if obj_player.state != ST_KNOCKOUT //Lil depth fix
-	depth = obj_player.depth + 1;
-
+///@description Activate the object ~ps I do not care about build in id variables...
 if(player_collide_object(C_BOTTOM))
 {
 	if(!pushed) play_sound(sfx_button);

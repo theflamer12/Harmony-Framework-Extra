@@ -22,6 +22,6 @@
 
 	if(attacking && check_region(-24*hitbox_scale, -24*hitbox_scale, 24*hitbox_scale, 24*hitbox_scale, hitbox_x, y-26) && obj_player.state != ST_KNOCKOUT && !obj_player.debug) 
 	{
-		player_hurt();
+		player_hurt(hitbox_x);
 		play_sound(sfx_spike);
 	}
