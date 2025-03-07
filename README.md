@@ -10,9 +10,9 @@ Adds stuff that's not gonna be in harmony or isn't added yet.
 Added:
 - Rotating platforms
 - Flail
+- Swing ropes
 
 To do:
-- Swing ropes
 - Button and template activation object
 - Smooth palette swap shader
 - Spiral path
