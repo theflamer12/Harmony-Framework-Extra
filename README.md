@@ -11,9 +11,12 @@ Added:
 - Rotating platforms
 - Flail
 - Swing ropes
+- Button and template activation object
+
+WIP:
+- Arboreal Agate act 2
 
 To do:
-- Button and template activation object
 - Smooth palette swap shader
 - Spiral path
 - Ziplines
