@@ -58,12 +58,17 @@
 	global.chaotix_monitors = false;		//Changes monitor icons to be like chaotix, monitor icon spins and it turns into dust
 	global.use_peelout = true;				//Flag that allows peel-out ability
 	global.use_dropdash = true;				//Flag that allows dropdash ability
-	global.use_airroll = false;				//Flag that allows rolling while air-borne
+	global.use_tails_flight_cancel = true;	//Flag that allows Tails flight cancel ability
+	global.use_airroll = true;				//Flag that allows rolling while air-borne
 	global.use_spindash = true;				//Flag taht allows player to use the spindash
 	global.camera_pan_type = 0;				//Variable that changes how camera panning works. 0 = No panning, 1 = Sonic CD panning[currently inaccurate], 2 = S1D/XG styled camera panning 
 	global.chaotix_dust_effect = false;		//Flag that disables classic spindash/skid dust effect
-	global.camera_type = 1;					//Vertical camera scrolling type, 0 = Megadrive, 1 = Mania
+	global.camera_type = 0;					//Vertical camera scrolling type, 0 = Megadrive, 1 = Mania
 	global.knux_camera_smooth = false;		//Flag for using smooth ledge climb camera movement
+
+    //Savefile stuff:
+    global.collectible_save = "Collectibles.harmony";
+
 	
 	//Font setup:
 	global.hud_number = font_add_sprite(spr_hud_numbers, ord("0"), false, 0);

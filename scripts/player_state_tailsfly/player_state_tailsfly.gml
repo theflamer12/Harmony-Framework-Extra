@@ -67,4 +67,10 @@ function player_state_tailsfly(){
 	{
 		y_accel = 0.03125;
 	}
+    
+    if(global.use_tails_flight_cancel && press_down)
+    {
+        state = ST_ROLL;
+        exit;
+    }
 }
