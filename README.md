@@ -15,7 +15,8 @@ Added:
 - Swing ropes
 - Button and template activation object
 - Smooth palette swap shader
-- Flight cancel for Tails  
+- Flight cancel for Tails
+- Collectibles (Ported from Hoshi)
 
 WIP:
 - Arboreal Agate act 2
@@ -26,7 +27,6 @@ To do:
 - Rail surfaces
 - Superform
 - Boss system
-- Collectible example
 - Title screen template
 - Demo replay system
 - Super simple save select(maybe from chaotix idk)
