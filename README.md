@@ -4,7 +4,9 @@ Fork of a Harmony framework (made by Darknn__).
 Adds stuff that's not gonna be in harmony or isn't added yet.
 
 # Feel free to use it but don't forget to credit us! 
-
+- SAWMPL
+- jao583
+- Davo255
 # Additions
 
 Added:
@@ -13,6 +15,7 @@ Added:
 - Swing ropes
 - Button and template activation object
 - Smooth palette swap shader
+- Flight cancel for Tails  
 
 WIP:
 - Arboreal Agate act 2
