@@ -24,6 +24,8 @@ To do:
 - Superform
 - Boss system
 - Collectible example
-- Special stage *-I'm not sure-*
 - Title screen template
+- Demo replay system
+- Super simple save select(maybe from chaotix idk)
+- Special stage *-I'm not sure-*
 - *idk... something*
