@@ -25,6 +25,7 @@ To do:
 - Boss system
 - Collectible example
 - Title screen template
-- Demo replay system 
+- Demo replay system
+- Super simple save select(maybe from chaotix idk)
 - Special stage *-I'm not sure-*
 - *idk... something*
