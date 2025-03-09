@@ -6,5 +6,5 @@
 	ini_close();
 	
 	//Don't forget to setup id of the collectible
-	if(collectible_id == -1) collected = false;
-	
+	if(collectible_id == -1) collected = true;
+	ready_to_collect = false;

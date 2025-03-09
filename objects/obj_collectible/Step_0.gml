@@ -2,13 +2,14 @@
 	depth = obj_player.start_depth + 1;
 	
 	//Check for the obj_level update
-	if(obj_level.stage_name != "EMPTY LEVEL")
+	if(obj_level.stage_name != "EMPTY LEVEL" && !ready_to_collect)
 	{
 		event_perform(ev_create,0);
+		ready_to_collect = true;
 	}
 	
     //Collect
-    if(player_collide_object(C_MAIN) && obj_player.state != ST_KNOCKOUT && collected == false)
+    if(player_collide_object(C_MAIN) && obj_player.state != ST_KNOCKOUT && collected == false && ready_to_collect)
     {
         //Play the sound
         play_sound(sfx_twinkle);
