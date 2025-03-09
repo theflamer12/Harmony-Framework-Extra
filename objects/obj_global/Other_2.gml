@@ -65,6 +65,7 @@
 	global.chaotix_dust_effect = false;		//Flag that disables classic spindash/skid dust effect
 	global.camera_type = 0;					//Vertical camera scrolling type, 0 = Megadrive, 1 = Mania
 	global.knux_camera_smooth = false;		//Flag for using smooth ledge climb camera movement
+	global.speed_shoes_music = 0;			//Variable that changes how the speed shoes music is handled. 0 = Jingle-based, 1 = Music Pitch-based
 
     //Savefile stuff:
     global.collectible_save = "Collectibles.harmony";

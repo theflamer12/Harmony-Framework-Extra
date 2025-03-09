@@ -98,7 +98,14 @@
 		{
 			obj_player.speed_shoes_flag = true;
 			obj_player.speed_shoes = 1200;
-			play_music(J_SPEEDSHOE, Jingle);
+			if(global.speed_shoes_music == 0)
+			{
+				play_music(J_SPEEDSHOE, Jingle);
+			}
+			else if(global.speed_shoes_music == 1)
+			{
+				music_set_pitch(BGM, obj_level.stage_speedshoes_pitch);
+			}
 		}
 		
 		//Hurt the player

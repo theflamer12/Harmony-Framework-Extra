@@ -7,10 +7,10 @@
 	//				 **DEFAULT STAGE SETUP**			  //
 	//====================================================//
 	
-	//Set stage music and loop points
+	//Set stage music and pitch values
 	stage_music = noone;
-	loop_start = 0.00;
-	loop_end = 0.00;
+	stage_pitch = 1.00;
+	stage_speedshoes_pitch = 1.25;
 		
 	//Set level name
 	stage_name = "EMPTY LEVEL";

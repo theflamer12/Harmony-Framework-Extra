@@ -8,9 +8,17 @@ function player_inv_speed(){
 	if(invincible_timer = 0 && invincible) invincible = false;
 	
 	//Stop jingles
-	if(obj_music.play_data[Jingle] = "j_speedshoe" && speed_shoes = 0)
+	if(speed_shoes == 0)
 	{
-		stop_jingle(true, 1);
+		if(global.speed_shoes_music == 0 && obj_music.play_data[Jingle] == "j_speedshoe")
+		{
+			stop_jingle(true, 1);
+		}
+		
+		if(global.speed_shoes_music == 1 && obj_music.play_pitch[BGM] > obj_level.stage_pitch)
+		{
+			music_set_pitch(BGM, obj_level.stage_pitch);
+		}
 	}
 	
 	if(obj_music.play_data[Jingle] = "j_invincible" && !invincible)

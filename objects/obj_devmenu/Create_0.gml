@@ -73,6 +73,7 @@
 	dev_menu_add_option_flag("Airroll Flag", "use_airroll");
 	dev_menu_add_option_flag("Dropdash Flag", "use_dropdash");
 	dev_menu_add_option_flag("Peelout Flag", "use_peelout");
+	dev_menu_add_option_number("Speed Shoes Music", "speed_shoes_music", 0, 1, 1);
 	
 	//Add the presentation category
 	dev_menu_add_category("PRESENTATION");

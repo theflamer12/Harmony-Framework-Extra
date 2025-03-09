@@ -34,13 +34,22 @@ function music_set_fade(fade_type, fade_speed)
 	obj_music.general_fade = fade_type;	
 }
 
+function music_set_pitch(channel = 0, pitch = 1)
+{
+	//Get the sound object
+	with(obj_music)
+	{
+		target_pitch[channel] = pitch;
+	}
+}
+
 function music_reset_fade()
 {
 	music_set_fade(FADE_IN, 1);
 	obj_music.general_fade_multiplier = 1;
 }
 
-function play_music(music_id, channel = 0){
+function play_music(music_id, channel = 0, pitch = 1){
 	
 	//Music macros
 	#macro BGM 0
@@ -66,10 +75,12 @@ function play_music(music_id, channel = 0){
 		//Play the sound
 		play_data[channel] = audio_get_name(global.list_sound_id[music_id]);
 		playing[channel] = audio_play_sound(global.list_sound_id[music_id], 0, global.list_loop[music_id]);
+		play_pitch[channel] = pitch;
+		target_pitch[channel] = play_pitch[channel];
 	}
 }
 
-function play_music_priority(music_id, channel)
+function play_music_priority(music_id, channel, pitch = 1)
 {
 	for (var i = 0; i < obj_music.channel_size; ++i) 
 	{
@@ -80,7 +91,7 @@ function play_music_priority(music_id, channel)
 		}
 	}
 	
-	play_music(music_id, channel);
+	play_music(music_id, channel, pitch);
 }
 
 function stop_jingle(fade_music_in, fade_speed = 1){
