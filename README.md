@@ -16,7 +16,7 @@ Added:
 - Button and template activation object
 - Smooth palette swap shader
 - Flight cancel for Tails
-- Collectibles (Ported from Hoshi)
+- Collectibles 
 
 WIP:
 - Arboreal Agate act 2
