@@ -387,7 +387,7 @@
               805308183,805306369,-994,-2147483648,6,805308135,805308134,805308133,805308132,805308131,805306369,-994,
               -2147483648,6,805308083,805308082,805308081,805308080,805308079,805306369,-994,-2147483648,6,805308031,
               805308030,805308029,805308028,805306369,805306369,-29876,-2147483648,
-            ],"TileDataFormat":1,},"tilesetId":{"name":"tile_collision","path":"tilesets/tile_collision/tile_collision.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+            ],"TileDataFormat":1,},"tilesetId":{"name":"tile_collision","path":"tilesets/tile_collision/tile_collision.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
         {"$GMRTileLayer":"","%Name":"CollisionB","depth":500,"effectEnabled":true,"effectType":"_filter_tintfilter","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"CollisionB","properties":[
             {"name":"g_TintCol","type":1,"value":"#FFFF0000",},
           ],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":250,"SerialiseWidth":1000,"TileCompressedData":[
@@ -494,7 +494,7 @@
               1,805306767,-997,-2147483648,-2,805306369,2,805306715,805307014,-996,-2147483648,-3,805306369,2,805306962,
               805307014,-995,-2147483648,-4,805306369,3,805306962,21,22,-993,-2147483648,-6,805306369,3,74,21,22,-29883,
               -2147483648,
-            ],"TileDataFormat":1,},"tilesetId":{"name":"tile_collision","path":"tilesets/tile_collision/tile_collision.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+            ],"TileDataFormat":1,},"tilesetId":{"name":"tile_collision","path":"tilesets/tile_collision/tile_collision.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
         {"$GMRTileLayer":"","%Name":"CollisionMain","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"CollisionMain","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":250,"SerialiseWidth":1000,"TileCompressedData":[
               -26,0,1,1,-133,0,-840,-2147483648,-26,0,1,1,-133,0,-840,-2147483648,-26,0,1,1,-133,0,-840,-2147483648,
               -26,0,1,1,-133,0,-840,-2147483648,-26,0,1,1,-133,0,-840,-2147483648,-26,0,1,1,-133,0,-840,-2147483648,
@@ -946,7 +946,7 @@
               1,448,-10,-2147483648,1,448,-979,-2147483648,1,448,-8,-2147483648,1,448,-10,-2147483648,1,448,-988,-2147483648,
               1,448,-818,-2147483648,-2,1,1,396,-178,-2147483648,-4,448,-815,-2147483648,-2,1,2,448,176,-177,-2147483648,
               -2,0,-817,-2147483648,-2,1,4,448,228,21,22,-13943,-2147483648,
-            ],"TileDataFormat":1,},"tilesetId":{"name":"tile_collision","path":"tilesets/tile_collision/tile_collision.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+            ],"TileDataFormat":1,},"tilesetId":{"name":"tile_collision","path":"tilesets/tile_collision/tile_collision.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
         {"$GMRTileLayer":"","%Name":"CollisionSemi","depth":700,"effectEnabled":true,"effectType":"_filter_tintfilter","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"CollisionSemi","properties":[
             {"name":"g_TintCol","type":1,"value":"#FF00FFFF",},
           ],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":250,"SerialiseWidth":1000,"TileCompressedData":[
@@ -979,7 +979,7 @@
               -10,0,-990,-2147483648,-10,0,-990,-2147483648,-10,0,-5102,-2147483648,-6,67,-25944,-2147483648,-6,448,
               -2,0,-2938,-2147483648,-2,0,-58,-2147483648,-8,448,-932,-2147483648,-2,0,-998,-2147483648,-2,0,-29835,
               -2147483648,
-            ],"TileDataFormat":1,},"tilesetId":{"name":"tile_collision","path":"tilesets/tile_collision/tile_collision.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+            ],"TileDataFormat":1,},"tilesetId":{"name":"tile_collision","path":"tilesets/tile_collision/tile_collision.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
       ],"name":"Collision","properties":[],"resourceType":"GMRLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"PlaneFront","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"PlaneFront","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":250,"SerialiseWidth":1000,"TileCompressedData":[
           -26,0,52,560,561,562,563,560,561,562,563,560,561,562,563,560,561,562,563,560,561,562,563,560,561,562,

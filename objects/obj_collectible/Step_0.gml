@@ -18,7 +18,7 @@
         
 		//Save data into the save file
         ini_open(global.collectible_save);
-        	ini_write_real(string(obj_level.stage_name), string(collectible_id), true);
+        	ini_write_real((string(obj_level.stage_name) + " " + string(obj_level.act)), string(collectible_id), true);
         ini_close();
         
         //Create the effect
