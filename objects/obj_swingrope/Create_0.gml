@@ -1,10 +1,5 @@
 /// @description Values
 	angle = 0;
-	/*for(var i = 0; i < 1; i++)
-	{
-		child_object[i] = instance_create_depth(x, y, depth, obj_hanging);
-	}*/
-
 	joins_amount = floor((sprite_height-2) / 12);
 	
 	for (var i = 0; i <= joins_amount; i++) 
