@@ -7,6 +7,7 @@ Adds stuff that's not gonna be in harmony or isn't added yet.
 - SAWMPL
 - jao583
 - Davo255
+- Blue (BlueSpeedster)
 # Additions
 
 Added:
@@ -17,6 +18,8 @@ Added:
 - Smooth palette swap shader
 - Flight cancel for Tails
 - Collectibles (Ported from Hoshi)
+- Pause Menu (mostly done but still W.I.P.)
+- Music Pitching
 
 WIP:
 - Arboreal Agate act 2
