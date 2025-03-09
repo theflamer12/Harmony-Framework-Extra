@@ -22,6 +22,7 @@ WIP:
 - Arboreal Agate act 2
 
 To do:
+- Instashield
 - Spiral path
 - Ziplines
 - Rail surfaces
