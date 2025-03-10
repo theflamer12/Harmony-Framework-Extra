@@ -1,6 +1,6 @@
 /// @description Values
 	angle = 0;
-	joins_amount = floor((sprite_height-2) / 12);
+	joins_amount = floor(((sprite_height-2) / 12) + extra_vine_length);
 	
 	for (var i = 0; i <= joins_amount; i++) 
 	{
