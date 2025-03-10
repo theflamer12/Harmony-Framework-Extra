@@ -1,23 +1,28 @@
 /// @description Draw the spikeball, pole and chain
-	ball_scale = 1 - 0.25 * dsin(global.object_timer  * rot_speed + 90);
-	chain_scale = 1 - 0.15 * dsin(global.object_timer  * rot_speed + 90);
+	ball_scale  = 1 - (0.01 * chain_length) * dsin(global.object_timer  * rot_speed + 90);
 	
 	if((global.object_timer * rot_speed) mod 360 >= 90 && (global.object_timer  * rot_speed) mod 360 <= 270)
 	{
 		draw_sprite(spr_flail_pole, 0, x, y);
+		
 		for (var i = chain_length-1; i > 0; --i) 
 		{
+			chain_scale = 1 - ((chain_length/50)-(i/50)) * dsin(global.object_timer  * rot_speed + 90);
 			draw_sprite_ext(spr_flail_chainball, 0, x + lengthdir_x(chain_length*14-14*i+2, direction), y-26, chain_scale, chain_scale, 0, c_white, 1);
 		}
+		
 		draw_sprite_ext(spr_flail_spikeball, 0, x + lengthdir_x(chain_length*14, direction), y-26, ball_scale, ball_scale, 0, c_white, 1);
 	}
 	else
 	{
 		draw_sprite_ext(spr_flail_spikeball, 0, x + lengthdir_x(chain_length*14, direction), y-26, ball_scale, ball_scale, 0, c_white, 1);
+		
 		for (var i = 2; i < chain_length; ++i) 
 		{
+			chain_scale = 1 - ((chain_length/50)-(i/50)) * dsin(global.object_timer  * rot_speed + 90);
 			draw_sprite_ext(spr_flail_chainball, 0, x + lengthdir_x(chain_length*14-14*i+2, direction), y-26, chain_scale, chain_scale, 0, c_white, 1);
 		}
+		
 		draw_sprite(spr_flail_pole, 0, x, y);
 	}
 

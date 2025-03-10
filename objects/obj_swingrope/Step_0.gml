@@ -1,5 +1,5 @@
 /// @description Script
-angle = 75/joins_amount * range_multiplier * dsin(global.object_timer*swing_speed);
+angle = 75/joins_amount * range_multiplier * dsin(start_angle + global.object_timer*swing_speed);
 
 for (var i = 0; i <= joins_amount; i++) 
 {

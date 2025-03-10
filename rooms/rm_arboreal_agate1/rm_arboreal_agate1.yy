@@ -380,6 +380,8 @@
     {"name":"inst_10365E2E","path":"rooms/rm_arboreal_agate1/rm_arboreal_agate1.yy",},
     {"name":"inst_7E70B2F3","path":"rooms/rm_arboreal_agate1/rm_arboreal_agate1.yy",},
     {"name":"inst_2E001DCA","path":"rooms/rm_arboreal_agate1/rm_arboreal_agate1.yy",},
+    {"name":"inst_3C996A33","path":"rooms/rm_arboreal_agate1/rm_arboreal_agate1.yy",},
+    {"name":"inst_2B7A9772","path":"rooms/rm_arboreal_agate1/rm_arboreal_agate1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -2806,6 +2808,11 @@
         {"$GMRInstance":"v1","%Name":"inst_2E001DCA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E001DCA","objectId":{"name":"obj_collectible","path":"objects/obj_collectible/obj_collectible.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_collectible","path":"objects/obj_collectible/obj_collectible.yy",},"propertyId":{"name":"collectible_id","path":"objects/obj_collectible/obj_collectible.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1816.0,"y":424.0,},
+        {"$GMRInstance":"v1","%Name":"inst_3C996A33","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3C996A33","objectId":{"name":"obj_swingrope","path":"objects/obj_swingrope/obj_swingrope.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":3.2857144,"x":176.0,"y":696.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2B7A9772","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2B7A9772","objectId":{"name":"obj_swingrope","path":"objects/obj_swingrope/obj_swingrope.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_swingrope","path":"objects/obj_swingrope/obj_swingrope.yy",},"propertyId":{"name":"start_angle","path":"objects/obj_swingrope/obj_swingrope.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"180",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_swingrope","path":"objects/obj_swingrope/obj_swingrope.yy",},"propertyId":{"name":"range_multiplier","path":"objects/obj_swingrope/obj_swingrope.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":5.0,"x":264.0,"y":696.0,},
       ],"layers":[],"name":"Objects","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_13C60B49","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_13C60B49","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_aaz_crystal1","path":"sprites/spr_aaz_crystal1/spr_aaz_crystal1.yy",},"x":992.0,"y":784.0,},
