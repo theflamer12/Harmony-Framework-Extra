@@ -1,18 +1,19 @@
 /// @description Script
 	//Add frames
 	frame += image_speed;
-	
+
 	//Disable animation loop
-	image_index = min(frame, image_number-1);
+	if(timer_kill)
+	{
+		image_index = min(frame, image_number-1);
+	}
+	else
+	{
+		image_index = frame mod image_number;
+	}
 	
 	//Destroy if animation is done
-	if(frame >= image_number)
-	{
-		instance_destroy();
-	}
-		
-	//Destroy if effect is off-screen
-	if(!on_screen(16, 16))
+	if(frame >= image_number && timer_kill)
 	{
 		instance_destroy();
 	}

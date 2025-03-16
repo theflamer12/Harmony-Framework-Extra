@@ -26,6 +26,8 @@
 		for (var i = 1; i <= 8; i++)
 		{
 			var angle = 360/8 * i
-			create_effect(x, y+16, spr_ring_sparkle, 0.1,, 2*dsin(angle), 2*dcos(angle), 0.25*dsin(angle), 0.25*dcos(angle));
+			var effect = create_effect(x, y+16, spr_ring_sparkle, 0.1,, 2*dsin(angle), 2*dcos(angle), 0.25*dsin(angle), 0.25*dcos(angle));
+			effect.timer_kill = false;
+			
 		}
     }
