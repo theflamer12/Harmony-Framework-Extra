@@ -12,8 +12,8 @@
 		image_index = frame mod image_number;
 	}
 	
-	//Destroy if animation is done
-	if(frame >= image_number && timer_kill)
+	//Destroy if animation is done / effect is off-screen
+	if((frame >= image_number && timer_kill) || !on_screen(16, 16))
 	{
 		instance_destroy();
 	}
