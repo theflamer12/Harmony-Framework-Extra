@@ -1,6 +1,6 @@
 /// @description Script
 	//Add frames
-	frame += image_speed;
+	frame += frame_speed;
 
 	//Disable animation loop
 	if(timer_kill)
@@ -9,7 +9,8 @@
 	}
 	else
 	{
-		image_index = frame mod image_number;
+		image_index += frame;
+		image_index %= image_number;
 	}
 	
 	//Destroy if animation is done / effect is off-screen
@@ -27,7 +28,7 @@
 	y_speed += y_accel;
 	
 	//Update other stuff
-	image_alpha += trans_speed
-	image_angle += ang_speed
-	image_xscale += xscale_spd
-	image_yscale += yscale_spd
+	image_alpha += trans_speed;
+	image_angle += ang_speed;
+	image_xscale += xscale_spd;
+	image_yscale += yscale_spd;
