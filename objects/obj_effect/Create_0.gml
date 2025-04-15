@@ -14,3 +14,5 @@
     palette_texture = sprite_index
     xscale_spd = 0
     yscale_spd = 0
+
+	timer_kill = true;

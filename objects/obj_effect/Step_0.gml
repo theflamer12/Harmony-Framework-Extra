@@ -6,7 +6,7 @@
     image_index = min(frame, image_number-1);
     
     //Destroy if animation is done
-    if(frame >= image_number)
+    if(frame >= image_number && timer_kill)
     {
         instance_destroy();
     }

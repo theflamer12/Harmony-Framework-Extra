@@ -4,7 +4,7 @@ function create_effect(X, Y, sprite, anim_speed, obj_depth = depth - 1, x_speed 
 	
 	//Set the sprite and animation speed
 	Object.sprite_index = sprite;
-	Object.frame_speed = anim_speed;
+	Object.image_speed = anim_speed;
 	
 	//Physics properties
 	Object.x_speed = x_speed;
