@@ -8,6 +8,7 @@ Adds stuff that's not gonna be in harmony or isn't added yet.
 - jao583
 - Davo255
 - Blue (BlueSpeedster)
+- and harmony creators of course
 # Additions
 
 Added:
