@@ -29,7 +29,7 @@ if(check_region(-10, -2, 10, 2, x+_x[joins_amount], y+_y[joins_amount]) && playe
 			x = floor(other.x + other._x[other.joins_amount]);
 			y = floor(other.y + other._y[other.joins_amount] + 23);
 			state = ST_NULL;
-			animation_play(animator, ANIM_LOOKUP);
+			animation_play(animator, ANIM_HANG);
 		}
 	}
 	
