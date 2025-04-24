@@ -21,6 +21,8 @@ Added:
 - Collectibles (Ported from Hoshi)
 - Pause Menu (mostly done but still W.I.P.)
 - Music Pitching
+- Legacy Harmony's Background Sprite Parts variables and functionality (`background_sprite_left`, `background_sprite_top`, `background_sprite_width` and `background_sprite_height`)
+- Additional `draw_sprite_tiled_horizontal` scripts
 
 WIP:
 - Arboreal Agate act 2
