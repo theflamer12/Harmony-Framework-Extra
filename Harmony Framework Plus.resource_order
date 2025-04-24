@@ -200,7 +200,6 @@
     {"name":"par_bullet","order":7,"path":"objects/par_bullet/par_bullet.yy",},
     {"name":"par_moving_platform","order":1,"path":"objects/par_moving_platform/par_moving_platform.yy",},
     {"name":"par_shield","order":5,"path":"objects/par_shield/par_shield.yy",},
-    {"name":"par_solid_object_1","order":6,"path":"objects/par_solid_object_1/par_solid_object_1.yy",},
     {"name":"par_solid_object","order":4,"path":"objects/par_solid_object/par_solid_object.yy",},
     {"name":"par_solid","order":3,"path":"objects/par_solid/par_solid.yy",},
     {"name":"rm_arboreal_agate2","order":1,"path":"rooms/rm_arboreal_agate2/rm_arboreal_agate2.yy",},
