@@ -79,14 +79,18 @@
 	dev_menu_add_category("PRESENTATION");
 	dev_menu_add_entry("STAGE SELECT", rm_stage_select);
 	
-	//Add the presentation category
+	//Add the Regular Stages category
 	dev_menu_add_category("REGULAR STAGES");
 	dev_menu_add_entry("ARBOREAL AGATE ACT 1", rm_arboreal_agate1);
 	dev_menu_add_entry("2", rm_arboreal_agate2);
 	
+	//Add the Bonus Stages category
+	dev_menu_add_category("BONUS STAGES");
+	dev_menu_add_entry("BRIDGE ACT 1", rm_bridge);
+	
 	//Add all of the rooms
 	dev_menu_add_category("EVERY SCENE");
-	for (var i = 0; i < room_last; ++i) 
+	for (var i = 0; i <= room_last; ++i) 
 	{
 	    dev_menu_add_entry(room_get_name(i), i);
 	}
